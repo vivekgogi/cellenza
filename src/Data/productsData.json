@@ -1,0 +1,66 @@
+[
+  {
+    "image": "../images/17.jpg",
+    "name": "Cellenza Wonder Sealer Pro",
+    "productSubtitle": "For Natural and Artificial Stones",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productCategory": "sealants",
+    "brandName": "Celleza"
+  },
+  {
+    "name": "Polish Powder",
+    "image": "../images/33.jpg",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productSubtitle": "For Natural and Artificial Stones",
+    "productCategory": "glues",
+    "brandName": "Celleza"
+  },
+  {
+    "name": "Cellenza Densifier",
+    "image": "../images/29.jpg",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productSubtitle": "For Natural and Artificial Stones",
+    "productCategory": "sealant",
+    "brandName": "Celleza"
+  },
+  {
+    "name": "Cellenza Mastic",
+    "image": "../images/1.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lorem nulla. Sed euismod augue ut nunc placerat, nec eleifend ex dapibus.",
+    "productSubtitle": "Polyster Based Stone Adhesive",
+    "productCategory": "adhesive",
+    "brandName": "Celleza"
+  },
+  {
+    "name": "Top Sealer",
+    "image": "../images/12.jpg",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productSubtitle": "For Natural, Tile and Grout Surface",
+    "productCategory": "sealant",
+    "brandName": "Celleza"
+  },
+  {
+    "name": " ",
+    "image": "../images/7.jpg",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productSubtitle": "For Gluing and Filling Natural and Artificial Stones",
+    "productCategory": "adhesive",
+    "brandName": "Celleza"
+  },
+  {
+    "name": "Epoxy Resin CE-55 Clear",
+    "image": "../images/4.jpg",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productSubtitle": "Liquid Epoxy for Natural Stone",
+    "productCategory": "industrial chemicals",
+    "brandName": "Celleza"
+  },
+  {
+    "name": "Epo Gel 1050",
+    "image": "../images/5.jpg",
+    "description": "Cellenza Wonder Sealer Pro is the Premium densification that makes the marble harder and denser. Wonder penetrates into the marble and reacts with the marble to form compounds which expand and fill the pores in the stone. Not only does this reduce the porosity but also leads to enhanced shine and longevity of polish.",
+    "productSubtitle": "Component A",
+    "productCategory": "industrial chemicals",
+    "brandName": "Celleza"
+  }
+]

@@ -1,0 +1,537 @@
+
+
+header {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .pre_header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 1.5vmin 0;
+  }
+  
+  .pre_header .lang_box {
+    margin-left: 7vmin;
+    border: none;
+  }
+  
+  /* .lang_box_list {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .lang_box {
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+  }
+  
+  .lang_box_list {
+    border: none;
+    background-color: var(--secondary);
+    color: var(--base);
+    font-size: 2vmin;
+  }
+  
+  .lang_box_list i {
+    margin-left: 0.5vmin;
+    font-size: 1.5vmin;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .lang_box_content {
+    border: none;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .lang_box_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .lang_box_content a:hover {
+    background-color: #f1f1f1
+  }
+  
+  /* Show the dropdown menu on hover */
+  .lang_box:hover .lang_box_content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .lang_box:hover .lang_box_list {
+    background-color: #3e8e41;
+  }
+  
+  .pre_header .contact_nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 10vmin;
+  }
+  
+  .pre_header .contact_nav a {
+    text-decoration: none;
+    color: var(--base);
+    font-size: 2vmin;
+  }
+  
+  .pre_header .contact_nav a i {
+    margin-right: 1vmin;
+    font-size: 1.75vmin;
+  }
+  
+  .pre_header .social_box {
+    margin-right: 8vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .pre_header .social_box a i {
+    color: var(--base);
+    margin-left: 4vmin;
+  }
+  
+  .main_header {
+    width: 100%;
+    height: 10vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .main_header .logo img {
+    width: 20vmin;
+    width: 28vmin;
+    margin-left: 5.5vmin;
+  }
+  
+  .main_header .menu {
+    width: 35%;
+  }
+  
+  .main_header .menu ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+  
+    /* border: 1px solid red; */
+    /* position: relative; */
+    /* right: 4vmin; */
+  }
+  
+  .main_header .menu ul li a {
+    text-decoration: none;
+    color: var(--greyshade);
+    font-size: 2.2vmin;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .products {
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+  }
+  
+  .products_category_list {
+    text-decoration: none;
+    color: var(--greyshade);
+    font-size: 2.2vmin;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  
+  .products_category_list:hover {
+    background-color: white;
+  }
+  
+  .products_category_list i {
+    margin-left: 0.5vmin;
+    font-size: 2vmin;
+    font-weight: bold;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .products_category {
+    border: none;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .products_category a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .products_category a:hover {
+    background-color: whitesmoke;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .products:hover .products_category {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .products:hover .products_category {
+    background-color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .main_header .menu ul li a[href="/active"] {
+    color: var(--secondary);
+  }
+  
+  .main_header .menu ul li a:hover {
+    color: var(--secondary);
+    /* font-size: 2.4vmin; */
+  }
+  
+  .main_header .cta_btn a {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--base);
+    padding: 1.1vmin 4.5vmin;
+    margin-right: 7vmin;
+    font-size: 2.5vmin;
+    font-weight: 400;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+  }
+  
+  .main_header .cta_btn a:hover {
+    background-color: var(--secondary);
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Media Queris - Start */
+  
+  @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 700px) {
+  
+      .main_header {
+        width: 100%;
+        height: 10vmin;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        /* border: 1px solid red; */
+      }
+  
+      .main_header .logo img {
+        width: 22vmin;
+        height: auto;
+        margin-left: 4.4vmin;
+        /* border: 1px solid red; */
+      }
+  
+      .main_header .menu {
+        width: 65%;
+        margin-right: 4.4vmin;
+        /* border: 1px solid red; */
+      }
+  
+      /* .main_header .menu ul {
+        border: 1px solid red;
+      } */
+  
+      .main_header .menu ul li a {
+        font-size: 2.5vmin;
+      }
+  
+      /* ----- pending ------- */
+  
+      .products {
+        position: relative;
+        display: inline-block;
+        background: none;
+        border: none;
+  
+  
+        top: 1px;
+        /* border: 1px solid red; */
+        padding: 0;
+        margin: 0;
+      }
+  
+      .products_category_list {
+        font-size: 2.5vmin;
+      }
+  
+      .products_category_list:hover {
+        background-color: white;
+      }
+  
+      .products_category_list i {
+        margin-left: 0.5vmin;
+        font-size: 2vmin;
+        font-weight: bold;
+      }
+  
+      /* Dropdown Content (Hidden by Default) */
+      .products_category {
+        border: none;
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+  
+      /* Links inside the dropdown */
+      .products_category a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-weight: 400;
+      }
+  
+      /* Change color of dropdown links on hover */
+      .products_category a:hover {
+        background-color: whitesmoke;
+      }
+  
+      /* Show the dropdown menu on hover */
+      .products:hover .products_category {
+        display: block;
+      }
+  
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .products:hover .products_category {
+        background-color: white;
+      }
+  
+      .main_header .menu ul li a[href="/active"] {
+        color: var(--secondary);
+      }
+  
+      .main_header .menu ul li a:hover {
+        color: var(--secondary);
+        /* font-size: 2.4vmin; */
+      }
+  
+      .main_header .cta_btn {
+        display: none;
+      }
+  
+      .main_header .cta_btn a {
+        text-decoration: none;
+        background-color: var(--primary);
+        color: var(--base);
+        padding: 1.1vmin 4.5vmin;
+        margin-right: 7vmin;
+        font-size: 2.5vmin;
+        font-weight: 400;
+        border-radius: 2px;
+        transition: all 0.5s ease;
+      }
+  
+      .main_header .cta_btn a:hover {
+        background-color: var(--secondary);
+      }
+  
+      /* ------------------- */
+  
+  
+  
+      .pre_header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        background-color: var(--secondary);
+        color: var(--primary);
+        padding: 1.5vmin 0;
+  
+  
+        /* border: 1px solid blue; */
+      }
+  
+      .pre_header .lang_box {
+  
+  
+        margin-left: 2vmin;
+        border: none;
+        /* border: 1px solid blue; */
+      }
+  
+      /* .lang_box_list {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      } */
+  
+      /* The container <div> - needed to position the dropdown content */
+      .lang_box {
+        position: relative;
+        display: inline-block;
+        background: none;
+        border: none;
+      }
+  
+      .lang_box_list {
+        border: none;
+        background-color: var(--secondary);
+        color: var(--base);
+        font-size: 3vmin;
+      }
+  
+      .lang_box_list i {
+        margin-left: 0.5vmin;
+  
+  
+        font-size: 2.5vmin;
+      }
+  
+      /* Dropdown Content (Hidden by Default) */
+      .lang_box_content {
+        border: none;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+  
+      /* Links inside the dropdown */
+      .lang_box_content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 2.5vmin;
+      }
+  
+      /* Change color of dropdown links on hover */
+      .lang_box_content a:hover {
+        background-color: #f1f1f1
+      }
+  
+      /* Show the dropdown menu on hover */
+      .lang_box:hover .lang_box_content {
+        display: block;
+      }
+  
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .lang_box:hover .lang_box_list {
+        background-color: var(--secondary);
+      }
+  
+      .pre_header .contact_nav {
+        display: none;
+      }
+  
+      .pre_header .contact_nav a {
+        text-decoration: none;
+        color: var(--base);
+        font-size: 2vmin;
+      }
+  
+      .pre_header .contact_nav a i {
+        margin-right: 1vmin;
+        font-size: 1.75vmin;
+      }
+  
+      .pre_header .social_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+  
+  
+        margin-right: 7vmin;
+      }
+  
+      .pre_header .social_box a i {
+        color: var(--base);
+  
+  
+        margin-left: 3.5vmin;
+        font-size: 3.3vmin;
+      }
+    }
+  }
+  
+  /* Media Queris - End */
+  
+  
